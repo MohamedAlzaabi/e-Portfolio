@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - Mohamed Alzaabi</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo-left">
+      <span>University of Essex</span>
+    </div>
+
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutMe.html"  class="active">About Me</a></li>
+        <li><a href="MyModules.html">My Modules</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <div class="logo-right">
+      <span>Mohamed Alzaabi</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="hero2">
+    <div class="hero-text">
+     
+    </div>
+  </main>
+  
+  <!-- About Me Section -->
+  <section class="about-section">
+    <h2>About Me</h2>
+    <div class="underline"></div> <!-- Added underline here -->
+    <p>
+      Hello! I am Mohamed Alzaabi, a passionate student at the University of Essex. I am currently pursuing my studies in the field of MSc Artificial Intelligence. 
+      I have a deep interest in technology, innovation, and problem-solving. I love to explore new ideas and work on projects that can make a positive impact in the world. 
+      In my free time, I enjoy reading, traveling, and learning about different cultures. I am always eager to take on new challenges and expand my knowledge.
+    </p>
+	<h3 class="education-title">Education</h3>
+	<div class="underline small-underline"></div>
+	<div class="education-list">
+  <div class="education-item">
+    <h4>Bachelor in Application Development (IT)</h4>
+    <p>Higher Colleges of Technology (HCT), Abu Dhabi, UAE – 2019 - 2022</p>
+  </div>
+  <div class="education-item">
+    <h4>Energy Engineer</h4>
+    <p>Applied Technology High School (ATHS), Abu Dhabi, UAE – 2014 – 2018</p>
+  </div>
+</div>
+<h3 class="skills-title">Skills</h3>
+<div class="underline small-underline"></div>
+<p class="skills-list">
+  - Programming Languages: JavaScript, Java, Python, C#, TypeScript<br>
+  - Web Development: HTML, CSS, Bootstrap, Angular, Web Design, Responsive Design<br>
+  - Mobile Development: Android App Development<br>
+  - Databases: SQL, TOAD, Oracle APEX, Cloud & Offline DB Integration<br>
+  - Other: Web APIs, Game Development, Object-Oriented Programming
+</p>
+</div>
+
+  </section>
+
+  <!-- Contact Form Section -->
+  <div class="contact-section">
+    <h2>Get in Touch</h2>
+    <form class="contact-form" action="https://formspree.io/f/xyzwnpoq" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+      <div class="footer-contact">
+        <p><i class="fas fa-phone-alt"></i> +971-58-811-8181</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Mohamed Alzaabi. All rights reserved</p>
+      </div>
+      <div class="footer-email">
+        <p><i class="fas fa-envelope"></i> mohamedkhaled171999@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Confirmation -->
+  <script>
+    const form = document.querySelector('.contact-form');
+    form.addEventListener('submit', function () {
+      alert('Thank you! Your message has been sent.');
+    });
+  </script>
+</body>
+</html>
