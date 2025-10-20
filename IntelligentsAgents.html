@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Research Methods - Mohamed Alzaabi</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="header">
+    <div class="logo-left">
+      <span>University of Essex</span>
+    </div>
+
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="AboutMe.html">About Me</a></li>
+        <li><a href="MyModules.html">My Modules</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+
+    <div class="logo-right">
+      <span>Mohamed Alzaabi</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main class="hero2">
+    <div class="hero-text">
+     
+    </div>
+  </main>
+  
+  <!-- Research Methods Section -->
+  <section class="about-section">
+    <h2>Intelligents Agents</h2>
+    <div class="underlineMachine"></div> <!-- Added underline here -->
+	
+	
+	<div class="learning-outcomes">
+  <div class="learning-header" onclick="toggleParagraph()">
+    <h3>Learning Outcomes</h3>
+    <span id="toggle-arrow">&#9654;</span> <!-- Right arrow initially -->
+  </div>
+  <p id="learning-text">
+    <br>1- &nbsp; Identify and critically analyse agent-based systems, differentiating between architectures and approaches.<br><br>
+		2- &nbsp; Apply and critically evaluate intelligent agent techniques to real-world problems, particularly where technical risk and uncertainty is involved.<br><br>
+		3- &nbsp; Deploy critically appropriate software tools and skills for the design and implementation of an agent-based system, bearing in mind applicable legal, social, ethical and professional issues.<br><br>
+		4- &nbsp; Systematically develop and implement the skills required to be effective member of a development team in a virtual professional environment, adopting real-life perspectives on team roles and organisation.
+
+  </p>
+</div>
+
+	<div class="learning-outcomes">
+  <div class="learning-header" onclick="atoggleParagraph()">
+    <h3>Collaborative Discussion 1 Week 1</h3>
+    <span id="atoggle-arrow">&#9654;</span> <!-- Right arrow initially -->
+  </div>
+  <p id="learning-text1">
+    <br>
+	<b>Initial Post</b><br><br>
+	The rise of agent-based systems has been driven by advances in artificial intelligence (AI), distributed computing, and the need for autonomous, adaptive solutions in 
+	complex, dynamic environments. Unlike traditional software, which often operates in a static, predefined manner, agent-based systems consist of autonomous entities 
+	(agents) that can perceive their environment, reason, and act towards specific goals, often in collaboration with other agents (Wooldridge, 2009). This paradigm has 
+	become increasingly relevant as organisations face challenges that require flexibility, scalability, and real-time decision-making.Several factors have contributed to 
+	their growth. First, the rapid development of AI techniques, such as machine learning and natural language processing, has enabled agents to exhibit more sophisticated 
+	reasoning and adaptive behaviours. Second, the rise of networked systems, including the Internet of Things (IoT), has created environments where multiple heterogeneous
+	components must interact seamlessly (Jennings & Bussmann, 2003). Finally, increased computational power and distributed architectures, such as cloud computing, have
+	made it feasible to deploy complex multi-agent systems (MAS) at scale.For organisations, agent-based systems offer multiple benefits. They can improve operational 
+	efficiency by automating decision-making processes, reducing the need for constant human intervention. They enhance adaptability, enabling systems to respond 
+	dynamically to changing environments, such as fluctuating market conditions or supply chain disruptions. They also promote scalability, as new agents can be added 
+	without significant reconfiguration of the system (Russell & Norvig, 2021). Moreover, in simulations, agent-based modelling can provide deeper insights into emergent
+	behaviours within complex systems, supporting strategic planning and policy design.In conclusion, the rise of agent-based systems reflects both technological progress 
+	and the increasing complexity of organisational challenges. By enabling autonomy, adaptability, and scalability, they have become a valuable tool for organisations 
+	seeking to remain competitive in dynamic markets.
+<br><br>
+	References<br><br>
+	•&nbsp;Jennings, N. R., & Bussmann, S. (2003) ‘Agent-based control systems: Why are they suited to engineering complex systems?’, IEEE Control Systems Magazine, 23(3), 
+	pp. 61–73.<br><br>
+	•&nbsp;Russell, S., & Norvig, P. (2021) Artificial Intelligence: A Modern Approach. 4th edn. Harlow: Pearson.<br><br>
+	•&nbsp;Wooldridge, M. (2009) An Introduction to MultiAgent Systems. 2nd edn. Chichester: Wiley.
+	
+	
+	<br><br><br><br><br>
+	
+	<b>Peer Response</b><br><br>
+	Peer Response 1 – Response to James Adams<br>
+	James, you’ve provided a strong overview of the increasing role of agent-based AI systems, especially when paired with large language models. To mitigate the risks you mention—particularly over-reliance and long-term impact on workforce skills—several preventive measures could be considered:
+	First, implementing human-in-the-loop (HITL) oversight can ensure that critical decisions made by agents are reviewed and validated by subject matter experts. This reduces the risk of automation bias and prevents erroneous outputs from propagating unchecked.
+	Second, enforcing periodic performance audits—including bias testing, model drift detection, and adversarial scenario evaluations—can keep agent behaviour aligned with organisational and ethical standards over time. These audits should be coupled with robust change control processes for both the models and their training datasets.
+	Third, investing in upskilling and reskilling programs for employees is essential. If AI agents take over repetitive knowledge-based tasks, displaced staff can be redeployed into higher-value roles, maintaining workforce adaptability and resilience.
+	Lastly, adopting transparent governance frameworks—clearly documenting an agent’s capabilities, decision boundaries, and data sources—will help maintain accountability and trust in both internal and client-facing deployments.
+	By combining these measures, organisations can capture the efficiency gains of agent systems while safeguarding against overdependence and systemic risk.
+	<br><br><br>
+
+
+
+	Peer Response 2 – Response to Jordan Speight<br>
+	Jordan, your discussion of the emergent, bottom-up dynamics of agent-based modelling is particularly valuable for understanding both its strengths and vulnerabilities. To prevent potential failures or unintended outcomes in such complex systems, a few preventive strategies come to mind:
+	First, applying robust simulation testing under extreme and edge-case conditions before real-world deployment can expose vulnerabilities in agent interactions and emergent behaviours. This is especially important given the non-linear and sometimes unpredictable nature of macro phenomena.
+	Second, introducing multi-layered fail-safes and intervention points—where human operators can pause, override, or reconfigure agents—helps maintain operational control in critical domains like finance, healthcare, or public safety.
+	Third, maintaining continuous environmental monitoring is key. Since agents adapt over time, ongoing analysis of both micro-level behaviours and macro-level system outcomes ensures early detection of undesirable patterns, such as coordination failures or harmful emergent dynamics.
+	Finally, creating interoperability and auditability standards for agent-based systems—ensuring that system inputs, decision logic, and interactions can be traced—supports both troubleshooting and compliance with regulatory requirements.
+	These measures, if embedded into system design and governance, can help harness the benefits of autonomous agents while minimising the risks inherent in complex, self-organising systems.
+	
+	
+	<br><br><br><br><br>
+	
+	
+	<b>Summary Post</b><br><br>
+	The exploration of agent-based systems (ABS) across the first three units, combined with peer feedback, has reinforced both their potential and their challenges in organisational contexts. In my initial post, I emphasised how advances in artificial intelligence (AI), the Internet of Things (IoT), and distributed computing have driven the adoption of ABS by enabling autonomy, adaptability, and scalability (Wooldridge, 2009; Jennings & Bussmann, 2003; Russell & Norvig, 2021). These qualities allow ABS to address complex, real-world challenges such as supply chain disruptions or dynamic market conditions.
+	Peer feedback highlighted the need to broaden this perspective. Paul suggested incorporating challenges such as coordination overhead, unintended emergent behaviours, and the difficulties of verification and validation (Macal & North, 2010). He also stressed the importance of grounding benefits with practical examples, such as adaptive traffic signal control or smart grid demand response. Thiago extended this by noting that even autonomous, adaptive agents require safeguards. He highlighted monitoring, anomaly detection, and clear coordination strategies as critical to maintaining reliability and resilience (Rahwan et al., 2019; Jennings et al., 1998).
+	The unit content further reinforced that technical sophistication alone does not guarantee impact. The socio-technical dimension—interoperability, governance, and human-in-the-loop oversight—ensures that ABS deliver real organisational value. Without these, the autonomy and adaptability of agents risk generating inefficiencies or unintended outcomes.
+	In summary, my understanding of ABS has evolved from viewing them mainly as enablers of efficiency and scalability to recognising them as socio-technical systems requiring oversight, resilience, and contextual alignment. The balance of autonomy with governance, adaptability with reliability, and scalability with accountability is what ultimately transforms ABS from a promising technology into a sustainable organisational solution.
+	<br><br>
+	References<br>
+	•&nbsp;Jennings, N.R. & Bussmann, S. (2003) ‘Agent-based control systems: Why are they suited to engineering complex systems?’, IEEE Control Systems Magazine, 23(3), pp. 61–73.<br><br>
+	•&nbsp;Jennings, N.R., Kinny, D. & Wooldridge, M. (1998) ‘A roadmap of agent research and development’, Autonomous Agents and Multi-Agent Systems, 1(1), pp. 275–306.<br><br>
+	•&nbsp;Macal, C.M. & North, M.J. (2010) ‘Tutorial on agent-based modelling and simulation’, Journal of Simulation, 4(3), pp. 151–162. doi:10.1057/jos.2010.3<br><br>
+	•&nbsp;Rahwan, I., Cebrian, M., Obradovich, N., Bongard, J., Bonnefon, J-F., Breazeal, C., Crandall, J.W., Christakis, N.A., Couzin, I.D., Jackson, M.O., Jennings, N.R., Kamar, E., Kloumann, I.M., Larochelle, H., Lazer, D., McElreath, R., Mislove, A., Parkes, D.C., Pentland, A., Roberts, M.E., Shariff, A., Tenenbaum, J.B. & Wellman, M.P. (2019) ‘Machine behaviour’, Nature, 568, pp. 477–486. doi:10.1038/s41586-019-1138-y<br><br>
+	•&nbsp;Russell, S. & Norvig, P. (2021) Artificial Intelligence: A Modern Approach. 4th edn. Harlow: Pearson.<br><br>
+	•&nbsp;Wooldridge, M. (2009) An Introduction to MultiAgent Systems. 2nd edn. Chichester: Wiley.
+
+  </p>
+</div>
+
+
+
+	<div class="learning-outcomes">
+  <div class="learning-header" onclick="btoggleParagraph()">
+    <h3>Collaborative Discussion 2 Week 5</h3>
+    <span id="btoggle-arrow">&#9654;</span> <!-- Right arrow initially -->
+  </div>
+  <p id="learning-text2">
+    <br>
+	<b>Initial Post</b><br><br>
+	Agent Communication Languages (ACLs), such as KQML (Knowledge Query and Manipulation Language), were developed to enable autonomous software agents to exchange information 
+	and coordinate their actions through standardized message structures. A major advantage is their abstraction: agents can communicate intentions 
+	(e.g., “inform,” “ask,” “recommend”) rather than being bound to implementation details, which supports interoperability across heterogeneous platforms and distributed 
+	environments (Finin et al., 1994). This makes ACLs particularly useful for multi-agent systems, where flexible, high-level communication is essential for negotiation, 
+	cooperation, and decision-making.Despite these strengths, ACLs have notable disadvantages. Interpreting performatives like inform or achieve requires a shared understanding 
+	of context and ontology, which can be difficult to establish between independent systems (Labrou and Finin, 1997). Moreover, ACLs can be less efficient than direct 
+	programming mechanisms, as parsing and interpreting messages introduces communication overhead (Wooldridge, 2009). In practice, this has limited widespread adoption 
+	compared to simpler paradigms such as RPC (remote procedure call) or message queues.In contrast, method invocation in programming languages like Python or Java is 
+	lightweight, direct, and tightly coupled. Calls between objects guarantee clear semantics, type safety, and computational efficiency, making them well suited for 
+	controlled environments where performance is critical (Gamma et al., 1995). However, they lack the autonomy and semantic richness of ACLs. Therefore, ACLs are more 
+	advantageous in open, distributed societies of agents, while method invocation remains superior in tightly integrated software systems.
+	
+	<br><br>
+	<b>References</b>
+	<br><br>
+	•&nbsp;Finin, T., Labrou, Y. and Mayfield, J. (1994) KQML as an agent communication language. In: Proceedings of the 3rd International Conference on Information and Knowledge 
+	Management. New York: ACM, pp. 456–463.
+	<br><br>
+	•&nbsp;Gamma, E., Helm, R., Johnson, R. and Vlissides, J. (1995) Design patterns: Elements of reusable object-oriented software. Reading, MA: Addison-Wesley.
+	<br><br>
+	•&nbsp;Labrou, Y. and Finin, T. (1997) Semantics and conversations for an agent communication language. In: Proceedings of the 15th International Joint Conference on Artificial 
+	Intelligence. San Francisco: Morgan Kaufmann, pp. 584–591.
+	<br><br>
+	•&nbsp;Wooldridge, M. (2009) An introduction to multiagent systems. 2nd ed. Chichester: Wiley.
+
+
+	<br><br><br><br><br>
+
+	
+	<b>Peer Response</b><br><br>
+	Peer Response 1 – Response to Elias Medig<br>
+	Your discussion rightly emphasises the role of ACLs in enabling cooperation and negotiation through semantic “speech acts.” I agree that the high-level abstraction provides 
+	a flexibility that method invocation in Python or Java cannot easily achieve. However, the disadvantages you point out—computational overhead and the challenge of semantic 
+	interoperability—are significant.A preventive measure here would be the adoption of lightweight semantic frameworks that optimise message parsing. Recent developments in XML
+	and JSON-based message protocols could be adapted for ACLs to minimise overhead while preserving semantic richness (Fensel and Bussler, 2002). This would reduce the burden on 
+	systems that need to interpret high-level speech acts at scale.Additionally, the difficulty of achieving shared ontologies could be mitigated through ontology alignment and 
+	mapping tools. For instance, agents could use ontology mediation services to dynamically reconcile differences in their domain knowledge (Euzenat and Shvaiko, 2013). Such 
+	measures would strengthen the semantic backbone of ACLs and make them more practical in real-world distributed systems.Your post provides a balanced comparison, but 
+	highlighting these preventive strategies further demonstrates how the disadvantages of ACLs can be managed without sacrificing their unique advantages.
+	<br><br>
+	
+	<b>References</b><br><br>
+	•&nbsp;Euzenat, J. and Shvaiko, P. (2013) Ontology matching. 2nd edn. Heidelberg: Springer. <br><br>
+	•&nbsp;Fensel, D. and Bussler, C. (2002) ‘The Web Service Modeling Framework WSMF’, Electronic Commerce Research and Applications, 1(2), pp.113–137.
+
+
+	<br><br><br>
+	
+	Peer Response 2 – Response to Koulthoum Hassan Ahmad Flamerzi<br>
+	Your post highlights the strengths of ACLs in dynamic systems like supply chains and smart grids, where negotiation and goal delegation are vital. I agree with your 
+	observation that the abstraction of “intent” makes ACLs ideal for heterogeneous environments. A potential measure to overcome the disadvantages you mention—such as parsing 
+	complexity and the transition from KQML to FIPA-ACL—would be stronger standardisation efforts and middleware support. Middleware frameworks could act as translators between 
+	different ACLs or ontologies, ensuring backward compatibility and reducing the cost of migration for developers (Singh, 1998).Another preventive measure would be to design 
+	domain-specific ontologies alongside ACLs. For example, in a smart grid application, a well-defined ontology for energy resources would prevent ambiguity when agents 
+	negotiate load balancing (Poslad, 2007). This ensures that semantic misunderstandings do not undermine the autonomy and efficiency of the system. While method invocation in 
+	Python or Java may remain efficient for tightly integrated systems, ACLs supported by robust standards and middleware could help overcome the barriers to real-world adoption.
+	Your examples clearly show why ACLs are essential in distributed, autonomous settings.<br><br>
+	
+	<b>References</b><br><br>
+	•&nbsp;Poslad, S. (2007) Specifying protocols for multi-agent systems interaction. ACM Transactions on Autonomous and Adaptive Systems (TAAS), 2(4), pp.15–29.<br><br>
+	•&nbsp;Singh, M.P. (1998) ‘Agent communication languages: Rethinking the principles’, IEEE Computer, 31(12), pp.40–47.
+	
+	
+	<br><br><br><br><br>
+	
+	
+	<b>Summary Post</b><br><br>
+	Reflecting on my initial analysis, peer feedback, and the broader content of Units 5–7, it becomes clear that Agent Communication Languages (ACLs) such as KQML remain a 
+	powerful but challenging paradigm in multi-agent systems. In my initial post, I emphasised abstraction and interoperability as core strengths, noting how performatives like 
+	inform or ask allow agents to communicate intentions rather than raw data (Finin, Labrou and Mayfield, 1994). This characteristic sets ACLs apart from method invocation in 
+	languages such as Python or Java, which, while efficient, lack semantic depth. Nikolaos rightly highlighted an important nuance: ACLs do not simply structure messages but 
+	also model full conversations through protocols that govern permissible exchanges (Labrou and Finin, 1997). This dimension extends their value in sustaining coherent 
+	dialogues, a feature absent in deterministic method calls. However, Nikolaos also underscored the fragility of ACLs stemming from semantic inconsistencies and the absence 
+	of universally adopted standards, a limitation I had acknowledged but perhaps underplayed. Elias further deepened the discussion by reframing efficiency not as a weakness but 
+	as a trade-off. While ACLs introduce computational overhead, this is often justified in distributed, autonomous settings where negotiation and decision-making flexibility 
+	are critical (Jennings, Sycara and Wooldridge, 1998). Moreover, he pointed to advancements in semantic web technologies, such as ontology matching, that partially address 
+	the interoperability challenge (Shvaiko and Euzenat, 2013), though at the cost of added complexity. Taken together, the discourse across these units confirms a central 
+	tension: ACLs provide autonomy, semantics, and dialogue structure, but at the expense of efficiency and standardisation. Conversely, method invocation thrives in tightly 
+	coupled systems requiring predictability and speed. The appropriate choice ultimately depends on context—ACLs excel in open, dynamic environments, whereas direct invocation 
+	remains superior in controlled, performance-driven architectures.<br><br>
+	
+	<b>References</b><br><br>
+	•&nbsp;Finin, T., Labrou, Y. and Mayfield, J. (1994) ‘KQML as an agent communication language’, Proceedings of the 3rd International Conference on Information and Knowledge 
+	Management. New York: ACM, pp. 456–463.<br><br>
+	•&nbsp;Jennings, N.R., Sycara, K. and Wooldridge, M. (1998) ‘A roadmap of agent research and development’, Autonomous Agents and Multi-Agent Systems, 1(1), pp. 
+	7–38. https://doi.org/10.1023/A:1010090405266<br><br>
+	•&nbsp;Labrou, Y. and Finin, T. (1997) ‘Semantics and conversations for an agent communication language’, Proceedings of the 15th International Joint Conference on 
+	Artificial Intelligence. San Francisco: Morgan Kaufmann, pp. 584–591.<br><br>
+	•&nbsp;Shvaiko, P. and Euzenat, J. (2013) ‘Ontology matching: state of the art and future challenges’, IEEE Transactions on Knowledge and Data Engineering, 25(1), pp. 
+	158–176. https://doi.org/10.1109/TKDE.2011.253
+  </p>
+</div>
+
+<div class="learning-outcomes">
+  <div class="learning-header" onclick="ctoggleParagraph()">
+    <h3>Creating Agent Dialogues Week 6</h3>
+    <span id="ctoggle-arrow">&#9654;</span> <!-- Right arrow initially -->
+  </div>
+  <p id="learning-text3"><br>
+    <embed src="agent_dialogue.pdf" type="application/pdf" width="100%" height="600px" />
+  </p>
+</div>
+
+<div class="learning-outcomes">
+  <div class="learning-header" onclick="dtoggleParagraph()">
+    <h3>Creating Parse Trees Week 8</h3>
+    <span id="dtoggle-arrow">&#9654;</span> <!-- Right arrow initially -->
+  </div>
+  <p id="learning-text4"><br><br>
+  Constituency-Based Parse Trees<br><br>
+ 1) The government raised interest rates.<br>
+ (S (NP (DT The) (NN government)) (VP (VBD raised) (NP (NN interest) (NNS rates))))<br><br>
+ 2) The internet gives everyone a voice.<br>
+ (S (NP (DT The) (NN internet)) (VP (VBZ gives) (NP (NN everyone)) (NP (DT a) (NN voice))))<br><br>
+ 3) The man saw the dog with the telescope. (two readings)<br>
+ • Instrument reading (PP attaches to VP):
+ (S (NP (DT The) (NN man)) (VP (VBD saw) (NP (DT the) (NN dog)) (PP (IN with) (NP (DT the) (NN
+ telescope)))))<br>
+ • Modifying-the-dog reading (PP attaches to NP):
+ (S (NP (DT The) (NN man)) (VP (VBD saw) (NP (NP (DT the) (NN dog)) (PP (IN with) (NP (DT the)
+ (NN telescope)))))
+  </p>
+</div>
+
+
+<div class="learning-outcomes">
+  <div class="learning-header" onclick="etoggleParagraph()">
+    <h3>Collaborative Discussion 3: Deep Learning Week 9</h3>
+    <span id="etoggle-arrow">&#9654;</span> <!-- Right arrow initially -->
+  </div>
+  <p id="learning-text5"><br><br>
+  <b>Initial Post</b><br><br>
+  Deep learning technologies, such as DALL·E for image generation and ChatGPT for text creation, represent powerful advancements in artificial intelligence. While these 
+  systems provide significant opportunities for creativity, productivity, and problem-solving, they also present serious ethical considerations that cannot be overlooked.
+  One major issue lies in authenticity and misinformation. Deep learning models can generate hyper-realistic text, images, and even videos (deepfakes) that are difficult to 
+  distinguish from genuine human-created content. This raises concerns about their potential misuse in spreading disinformation, manipulating public opinion, or impersonating 
+  individuals (Floridi & Chiriatti, 2020). In turn, this can erode trust in digital media and increase the difficulty of verifying truth. Another ethical concern is bias and 
+  fairness. Since deep learning models are trained on massive datasets collected from the internet, they inevitably absorb human biases embedded in that data. If not carefully 
+  monitored, this can lead to outputs that reinforce stereotypes, discriminate against certain groups, or perpetuate harmful narratives (Bender et al., 2021).Additionally, there 
+  are intellectual property and ownership issues. The content generated by these models often draws upon patterns learned from copyrighted materials, which sparks debate about 
+  whether outputs constitute original work or derivative use. This is particularly problematic for artists and writers whose work may be used in training data without consent.
+  Finally, social and professional impacts must be considered. As deep learning systems become capable of automating tasks previously done by humans, questions arise about the 
+  displacement of creative professionals and the potential devaluation of human labour. Balancing innovation with protections for livelihoods will be essential in shaping 
+  responsible deployment.<br><br>
+  In conclusion, while deep learning technologies unlock enormous potential for solving real-world problems, their adoption should be guided by ethical frameworks that address 
+  misinformation, bias, ownership, and societal impact. Without careful governance, the risks may outweigh the benefits.<br><br>
+  
+  References<br>
+  •&nbsp;Bender, E.M., Gebru, T., McMillan-Major, A. & Shmitchell, S. (2021) ‘On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?’, Proceedings of the 2021 ACM 
+  Conference on Fairness, Accountability, and Transparency. ACM, pp. 610–623.<br>
+  •&nbsp;Floridi, L. & Chiriatti, M. (2020) ‘GPT-3: Its Nature, Scope, Limits, and Consequences’, Minds and Machines, 30(4), pp. 681–694.<br><br><br><br>
+  
+  
+  <b>Peer Response</b><br><br>
+  Peer Response to Abdullah Khalfan Rashid Abdullah Al-shibli<br>
+  Your discussion highlights the core ethical dilemmas of generative AI, particularly misinformation, copyright, and job displacement. One preventive measure against 
+  misinformation and bias could be the mandatory integration of fact-checking protocols and source transparency mechanisms. For example, AI-generated outputs could be tagged 
+  with “confidence levels” or linked to verifiable data sources, making it harder for inaccurate or manipulated content to spread unchecked. This approach would not eliminate 
+  errors but would give users more context for evaluating the reliability of AI outputs.On copyright, policymakers and AI developers could adopt clear attribution frameworks. 
+  A registry or blockchain-based system could track how training data influences generated outputs, allowing artists, writers, and creators to claim recognition or compensation. 
+  This would prevent the “black box” scenario where creators’ contributions are invisibly absorbed into models without accountability.Regarding job displacement, measures such 
+  as reskilling initiatives and hybrid workflows could help. Governments and industries could prioritize retraining programs for affected creative professionals, equipping them 
+  with AI collaboration skills instead of leaving them behind. Additionally, ethical guidelines could require companies to disclose when AI-generated content replaces human 
+  labor, ensuring transparency in creative industries.In sum, your points underline why ethical frameworks must be proactive. Preventive mechanisms—transparency tags, attribution
+  registries, and reskilling pipelines—can mitigate risks while preserving the transformative potential of generative AI.<br><br>
+  
+  Peer Response to Fahad Abdallah<br>
+  You make a compelling case around ownership, authenticity, and bias. A practical preventive measure for ownership disputes is the implementation of licensing models for 
+  training data. By creating a system where datasets are curated with licensed contributions—similar to open-source software—creators could decide whether and how their works 
+  are used. This could reduce disputes and ensure fair recognition for contributors.For authenticity, one safeguard could be the introduction of digital watermarking or 
+  “AI origin signatures” embedded in every generated work. These markers, ideally standardized at the international level, would help users identify machine-generated content 
+  and reduce the threat posed by deepfakes or manipulated media. In media contexts, this would protect journalistic integrity and prevent the erosion of public trust.On bias, 
+  your point is critical. Preventive steps here include bias auditing and third-party oversight. AI models could be required to undergo regular external audits that measure how 
+  outputs treat sensitive topics, with results made publicly accessible. This ensures accountability and reduces the risk of reinforcing harmful stereotypes in contexts like 
+  healthcare, education, and news.Your emphasis on transparency and accountability resonates strongly. With preventive systems such as licensed training data, watermarking, 
+  and regular bias audits, society could enjoy the benefits of AI creativity while safeguarding fairness, trust, and justice.<br><br><br><br>
+  
+  <b>Summary Post</b><br><br><br>
+  Deep learning applications such as ChatGPT and DALL·E have demonstrated immense creative and practical potential, but their ethical, legal, and social implications remain 
+  pressing. My initial post emphasised concerns around misinformation, bias, intellectual property, and labour displacement, highlighting the need for governance frameworks to 
+  ensure responsible use (Floridi & Chiriatti, 2020; Bender et al., 2021).Peer feedback further enriched this discussion by underscoring how creative professionals perceive 
+  these technologies as threats to their livelihoods and ownership rights. For example, James Adams referenced the contrasting regulatory approaches of Japan and the United 
+  Kingdom—Japan viewing training data use as analogous to human learning, while the UK is exploring royalty-based compensation for creators (Davtyan, 2024). These contrasting 
+  perspectives highlight how regulation is becoming as contested as the technology itself. Building on this, additional contributions introduced governance mechanisms such as 
+  watermarking and provenance standards to combat misinformation (Brundage et al., 2023), as well as pre-emptive auditing of datasets through model cards and documentation 
+  practices to address systemic bias (Mitchell et al., 2019). These suggestions illustrate the importance of integrating ethical safeguards throughout the AI lifecycle rather 
+  than relying solely on reactive measures. Reflecting across the past three units, a clear theme emerges: deep learning technologies cannot be separated from their 
+  socio-technical contexts. They reshape authenticity, challenge intellectual property law, and disrupt traditional labour markets (Acemoglu & Restrepo, 2020). While innovation
+  should not be stifled, a balance must be struck between enabling progress and protecting individual rights. In conclusion, a multi-layered approach—technical, legal, and 
+  educational—is required to mitigate risks while maximising benefits. International dialogue will be essential, as unilateral regulatory approaches risk fragmentation. Ethical 
+  frameworks must therefore evolve in parallel with technological innovation to secure public trust and sustainable adoption.<br><br><br>
+  
+  References<br><br>
+  Acemoglu, D. & Restrepo, P. (2020) 'The wrong kind of AI? Artificial intelligence and the future of labour demand', Cambridge Journal of Regions, Economy and Society, 
+  13(1), pp. 25–35.<br><br>
+  Bender, E.M., Gebru, T., McMillan-Major, A. & Shmitchell, S. (2021) ‘On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?’, Proceedings of the 2021 ACM 
+  Conference on Fairness, Accountability, and Transparency. ACM, pp. 610–623.<br><br>
+  Brundage, M., Mayer, K. & Eloundou, T. (2023) 'Provenance and policy: mitigating misinformation risks in generative AI', Science, 381(6654), pp. 152–154.<br><br>
+  Davtyan, T. (2024) ‘An overview of global efforts towards AI regulation’, Bulletin of Yerevan University C: Jurisprudence, 15(2 (41)), pp. 158–174.
+  doi:10.46991/bysu.c/2024.15.2.158.<br><br>
+  Floridi, L. & Chiriatti, M. (2020) ‘GPT-3: Its Nature, Scope, Limits, and Consequences’, Minds and Machines, 30(4), pp. 681–694.<br><br>
+  Mitchell, M., Wu, S. & Zaldivar, A. (2019) 'Model cards for model reporting', Proceedings of the Conference on Fairness, Accountability, and Transparency. ACM, pp. 220–229.
+
+
+
+  </p>
+</div>
+
+<div class="learning-outcomes">
+  <div class="learning-header" onclick="gtoggleParagraph()">
+    <h3>Deep Learning in Action Week 10</h3>
+    <span id="gtoggle-arrow">&#9654;</span> <!-- Right arrow initially -->
+  </div>
+  <p id="learning-text6"><br><br>
+  <b>Application of Deep Learning: Autonomous Vehicles</b><br><br>
+  <b>Overview of the Technology</b><br><br>
+  
+  Autonomous vehicles (AVs), commonly referred to as self-driving cars, use deep learning to perceive their environment and make driving decisions without direct human control.
+  The goal is to navigate complex, dynamic road conditions—detecting pedestrians, recognizing traffic signs, planning safe routes, and responding to unforeseen hazards.<br><br>
+  
+  <b>How It Works</b><br><br>
+  Deep learning underpins most of the perception and decision-making stack in AVs:<br><br>
+  <b>Perception:</b> Convolutional Neural Networks (CNNs) process camera images, lidar point clouds, and radar data to detect objects, lane markings, and environmental cues.<br><br>
+  <b>Prediction:</b> Recurrent neural networks (RNNs) and transformers forecast the likely behavior of nearby agents (e.g., a pedestrian about to cross).<br><br>
+  <b>Decision & Control:</b> Reinforcement learning and policy networks help determine safe and efficient maneuvers—whether to brake, change lanes, or accelerate. This 
+  layered pipeline creates an “artificial driver” that learns from massive datasets of real-world and simulated driving scenarios.<br><br>
+  
+  <b>Socio-Technical and Ethical Impacts</b><br><br>
+  <b>1. Safety and Social Good</b><br>
+  Potential to reduce road fatalities caused by human error (over 90% of accidents today).<br>
+  Increased mobility for elderly or disabled populations.<br><br>
+  
+  <b>Ethics and Responsibility</b><br>
+  Dilemmas over accident responsibility: should blame fall on the manufacturer, software provider, or owner?<br>
+  “Trolley problem”-like situations: how should algorithms prioritize lives in unavoidable crash scenarios?<br><br>
+  
+  <b>Privacy Concerns</b><br>
+  AVs constantly collect detailed environmental and behavioral data, raising questions about surveillance, data storage, and misuse by third parties.<br><br>
+  
+  <b>Economic and Social Disruption</b><br>
+  Large-scale impacts on employment for drivers in freight, taxi, and delivery sectors.<br>
+  Potential to reshape cities (reduced need for parking, changes in traffic flows).<br><br>
+  
+  <b>Bias and Fairness</b>
+  Deep learning systems can inherit biases from training data, potentially failing to recognize certain demographics (e.g., pedestrians with darker clothing at night).<br><br>
+  
+  <b>Conclusion</b><br><br>
+  Autonomous vehicles illustrate the transformative power of deep learning—blending technical sophistication with profound ethical and societal implications. 
+  Whether they become a net positive will depend less on the algorithms themselves and more on governance, regulatory frameworks, and the transparency of the organizations 
+  deploying them.
+
+  </p>
+</div>
+
+
+  </section>
+
+  <!-- Contact Form Section -->
+  <div class="contact-section">
+    <h2>Get in Touch</h2>
+    <form class="contact-form" action="https://formspree.io/f/xyzwnpoq" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <!-- Footer Section -->
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+      <div class="footer-contact">
+        <p><i class="fas fa-phone-alt"></i> +971-58-811-8181</p>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Mohamed Alzaabi. All rights reserved</p>
+      </div>
+      <div class="footer-email">
+        <p><i class="fas fa-envelope"></i> mohamedkhaled171999@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Confirmation -->
+  <script>
+    const form = document.querySelector('.contact-form');
+    form.addEventListener('submit', function () {
+      alert('Thank you! Your message has been sent.');
+    });
+	function toggleParagraph() {
+    const paragraph = document.getElementById("learning-text");
+    const arrow = document.getElementById("toggle-arrow");
+
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block";
+      arrow.innerHTML = "&#9654;"; // right arrow
+    } else {
+      paragraph.style.display = "none";
+      arrow.innerHTML = "&#9660;"; // down arrow
+    }
+  }
+  function atoggleParagraph() {
+    const paragraph = document.getElementById("learning-text1");
+    const arrow = document.getElementById("atoggle-arrow");
+
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block";
+      arrow.innerHTML = "&#9654;"; // right arrow
+    } else {
+      paragraph.style.display = "none";
+      arrow.innerHTML = "&#9660;"; // down arrow
+    }
+  }
+  
+   function btoggleParagraph() {
+    const paragraph = document.getElementById("learning-text2");
+    const arrow = document.getElementById("btoggle-arrow");
+
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block";
+      arrow.innerHTML = "&#9654;"; // right arrow
+    } else {
+      paragraph.style.display = "none";
+      arrow.innerHTML = "&#9660;"; // down arrow
+    }
+  }
+  function ctoggleParagraph() {
+    const paragraph = document.getElementById("learning-text3");
+    const arrow = document.getElementById("ctoggle-arrow");
+
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block";
+      arrow.innerHTML = "&#9654;"; // right arrow
+    } else {
+      paragraph.style.display = "none";
+      arrow.innerHTML = "&#9660;"; // down arrow
+    }
+  }
+  
+  function dtoggleParagraph() {
+    const paragraph = document.getElementById("learning-text4");
+    const arrow = document.getElementById("dtoggle-arrow");
+
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block";
+      arrow.innerHTML = "&#9654;"; // right arrow
+    } else {
+      paragraph.style.display = "none";
+      arrow.innerHTML = "&#9660;"; // down arrow
+    }
+  }
+  
+  function etoggleParagraph() {
+    const paragraph = document.getElementById("learning-text5");
+    const arrow = document.getElementById("etoggle-arrow");
+
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block";
+      arrow.innerHTML = "&#9654;"; // right arrow
+    } else {
+      paragraph.style.display = "none";
+      arrow.innerHTML = "&#9660;"; // down arrow
+    }
+  }
+  
+  function gtoggleParagraph() {
+    const paragraph = document.getElementById("learning-text6");
+    const arrow = document.getElementById("gtoggle-arrow");
+
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block";
+      arrow.innerHTML = "&#9654;"; // right arrow
+    } else {
+      paragraph.style.display = "none";
+      arrow.innerHTML = "&#9660;"; // down arrow
+    }
+  }
+  
+  function htoggleParagraph() {
+    const paragraph = document.getElementById("learning-text7");
+    const arrow = document.getElementById("htoggle-arrow");
+
+    if (paragraph.style.display === "none") {
+      paragraph.style.display = "block";
+      arrow.innerHTML = "&#9654;"; // right arrow
+    } else {
+      paragraph.style.display = "none";
+      arrow.innerHTML = "&#9660;"; // down arrow
+    }
+  }
+  </script>
+</body>
+</html>
